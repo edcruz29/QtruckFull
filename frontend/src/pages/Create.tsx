@@ -103,7 +103,7 @@ export default function CreateFoodTruck() {
         })
         history.push('/map');
       }).catch(err => {
-
+        
         if (err.response && err.response.data) {
           const { bcode, error } = err.response.data
 
